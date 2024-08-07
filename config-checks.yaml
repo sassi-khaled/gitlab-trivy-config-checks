@@ -1,5 +1,5 @@
 include:
-  - remote: https://raw.githubusercontent.com/ambient-innovation/gitlab-trivy-config-checks/main/config-checks.template.yaml
+  - remote: https://raw.githubusercontent.com/sassi-khaled/gitlab-trivy-config-checks/main/config-checks.template.yaml
 
 config_scanning:
   image: 
