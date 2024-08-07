@@ -6,7 +6,7 @@ config_scanning:
     name: ${CI_DEPENDENCY_PROXY_GROUP_IMAGE_PREFIX}/aquasec/trivy
     entrypoint: [""]
   tags:
-    - small-runner
+    - kubernetes
   stage: test
   variables:
     TRIVY_NO_PROGRESS: "true"
